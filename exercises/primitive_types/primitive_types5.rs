@@ -5,11 +5,9 @@
 // Execute `rustlings hint primitive_types5` or use the `hint` watch subcommand
 // for a hint.
 
-// I AM NOT DONE
-
 fn main() {
     let cat = ("Furry McFurson", 3.5);
-    let /* your pattern here */ = cat;
+    let (name, age) = cat; // Destructured by assigning the tuple to two variables. A tuple is a collection of values of different types.
 
     println!("{} is {} years old.", name, age);
 }
